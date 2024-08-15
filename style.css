@@ -76,3 +76,52 @@ div.test{
 div.test:hover{
     overflow: visible;
 } */
+
+.contact-container {
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 110px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+textarea {
+    height: 100px; 
+    resize: vertical; 
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
